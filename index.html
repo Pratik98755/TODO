@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="heading">Todo_List</h1>
+    <form action="" id="form" class="form container">
+        <input type="text" id="todo-title-input" class="todo_title_input" placeholder="Todo title">
+        <button type="submit" class="todo-form-button">Add</button>
+    </form>
+    <ul class="todos container">
+        <li data-id="1" class="todo">
+            <span class="todo-title"> Todo 1 </span>
+            <div class="toggle-delete">
+                <input type="checkbox" name="completed" class="todo-checkbox">
+                <button class="delete-todo-button">x</button>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
